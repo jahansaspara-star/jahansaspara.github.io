@@ -3,7 +3,9 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
   <title>Your Brand | Official Website</title>
+
   <style>
     body {
       margin: 0;
@@ -11,43 +13,52 @@
       background: #f5f7fa;
       color: #333;
     }
+
     header {
       background: #1877f2; /* Facebook blue */
       color: white;
       padding: 40px 20px;
       text-align: center;
     }
+
     header h1 {
       margin: 0;
       font-size: 2.5rem;
     }
+
     header p {
       margin-top: 10px;
       font-size: 1.1rem;
     }
+
     .container {
       max-width: 1000px;
       margin: auto;
       padding: 40px 20px;
     }
+
     .section {
       margin-bottom: 40px;
     }
+
     .section h2 {
       margin-bottom: 15px;
       color: #1877f2;
     }
+
     .cards {
       display: grid;
       grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
       gap: 20px;
     }
+
     .card {
       background: white;
       padding: 20px;
       border-radius: 10px;
       box-shadow: 0 4px 10px rgba(0,0,0,0.08);
     }
+
     .btn {
       display: inline-block;
       background: #1877f2;
@@ -57,9 +68,11 @@
       text-decoration: none;
       font-weight: bold;
     }
+
     .btn:hover {
       background: #145dbf;
     }
+
     footer {
       background: #222;
       color: #ccc;
@@ -69,31 +82,42 @@
     }
   </style>
 </head>
+
 <body>
 
   <header>
-    <h1>ASHOK ROY :- AAP</h1>
-    <p>Welcome to my official website</p>
-    <a class="btn" href="https://facebook.com/yourpage" target="_blank">Visit Our Facebook Page</a>
+    <h1>Your Page Name</h1>
+    <p>Welcome to our official website</p>
+    <a class="btn" href="https://facebook.com/yourpage" target="_blank">
+      Visit Our Facebook Page
+    </a>
   </header>
 
   <div class="container">
-
     <div class="section">
       <h2>About Us</h2>
       <p>
-        This is my official website for representing my ideas on political events.
-        This website can be linked directly on your Facebook page.
+        Write a short description about your Facebook page, business, or brand here.
       </p>
     </div>
 
-
     <div class="section">
-      <h2>Contact</h2>
-      <p>Email: jahansaspara@gmail.com</p>
-
+      <h2>What We Offer</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Service 1</h3>
+          <p>Description here.</p>
+        </div>
+        <div class="card">
+          <h3>Service 2</h3>
+          <p>Description here.</p>
+        </div>
+        <div class="card">
+          <h3>Service 3</h3>
+          <p>Description here.</p>
+        </div>
+      </div>
     </div>
-
   </div>
 
   <footer>
